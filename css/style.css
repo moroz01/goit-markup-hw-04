@@ -186,7 +186,8 @@ img {
   color: var(--accent-color);
 }
 
-.auth-nav-link:hover .auth-nav-icon {
+.auth-nav-link:hover .auth-nav-icon,
+.auth-nav-link:focus .auth-nav-icon {
   fill: var(--accent-color);
 }
 
@@ -522,8 +523,10 @@ img {
 }
 
 .joinus-p {
-  font-weight: 700px;
+  font-size: 14px;
+  font-weight: 700;
   color: var(--primary-white-color);
+  line-height: 1.14;
 }
 
 /* Footer Social */
